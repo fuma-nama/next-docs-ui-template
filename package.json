@@ -19,6 +19,7 @@
   "devDependencies": {
     "@types/react": "18.2.0",
     "@types/react-dom": "18.2.1",
+    "supports-color": "8.1.1",
     "typescript": "5.1.6"
   }
 }
