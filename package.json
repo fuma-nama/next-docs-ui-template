@@ -14,7 +14,8 @@
     "next-docs-ui": "2.3.3",
     "next-docs-zeta": "2.3.3",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "shiki": "^0.14.5"
   },
   "devDependencies": {
     "@types/react": "18.2.28",
