@@ -15,11 +15,11 @@ dependencies:
     specifier: 0.3.4
     version: 0.3.4(contentlayer@0.3.4)(esbuild@0.17.19)(next@13.5.5)(react-dom@18.2.0)(react@18.2.0)(supports-color@8.1.1)
   next-docs-ui:
-    specifier: 2.4.0
-    version: 2.4.0(@types/react-dom@18.2.13)(@types/react@18.2.28)(next@13.5.5)(react-dom@18.2.0)(react@18.2.0)(supports-color@8.1.1)
+    specifier: 2.4.1
+    version: 2.4.1(@types/react-dom@18.2.13)(@types/react@18.2.28)(next@13.5.5)(react-dom@18.2.0)(react@18.2.0)(supports-color@8.1.1)
   next-docs-zeta:
-    specifier: 2.4.0
-    version: 2.4.0(@types/react@18.2.28)(next@13.5.5)(react-dom@18.2.0)(react@18.2.0)(supports-color@8.1.1)
+    specifier: 2.4.1
+    version: 2.4.1(@types/react@18.2.28)(next@13.5.5)(react-dom@18.2.0)(react@18.2.0)(supports-color@8.1.1)
   react:
     specifier: 18.2.0
     version: 18.2.0
@@ -3468,8 +3468,8 @@ packages:
       - supports-color
     dev: false
 
-  /next-docs-ui@2.4.0(@types/react-dom@18.2.13)(@types/react@18.2.28)(next@13.5.5)(react-dom@18.2.0)(react@18.2.0)(supports-color@8.1.1):
-    resolution: {integrity: sha512-FCeCzBo8cH1uVgh8Ezo1jH3CUIzH5sJBv9F/x83jrd67Cdpy5RwZKOnL+DmKDrVtB0Ur8ViXieo7CYrIuUbOIw==}
+  /next-docs-ui@2.4.1(@types/react-dom@18.2.13)(@types/react@18.2.28)(next@13.5.5)(react-dom@18.2.0)(react@18.2.0)(supports-color@8.1.1):
+    resolution: {integrity: sha512-/GfEELF7XdCcqq1t99iser+Lcz+3I1D2CVjr/NqKxZNchWU04NamACa5LQnn6Tj9wL7dq6DzNdkvJkV+DYuJxQ==}
     peerDependencies:
       next: 13.x
       react: 18.x
@@ -3488,7 +3488,7 @@ packages:
       cmdk: 0.2.0(@types/react@18.2.28)(react-dom@18.2.0)(react@18.2.0)
       lucide-react: 0.287.0(react@18.2.0)
       next: 13.5.5(@opentelemetry/api@1.4.1)(react-dom@18.2.0)(react@18.2.0)
-      next-docs-zeta: 2.4.0(@types/react@18.2.28)(next@13.5.5)(react-dom@18.2.0)(react@18.2.0)(supports-color@8.1.1)
+      next-docs-zeta: 2.4.1(@types/react@18.2.28)(next@13.5.5)(react-dom@18.2.0)(react@18.2.0)(supports-color@8.1.1)
       next-themes: 0.2.1(next@13.5.5)(react-dom@18.2.0)(react@18.2.0)
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
@@ -3500,8 +3500,8 @@ packages:
       - supports-color
     dev: false
 
-  /next-docs-zeta@2.4.0(@types/react@18.2.28)(next@13.5.5)(react-dom@18.2.0)(react@18.2.0)(supports-color@8.1.1):
-    resolution: {integrity: sha512-mcUCIh92Th19f+tLDL6mqRfMIl8awhUrxdcyRbIkPh7GBkBd7SyH5DvQSqob7538lAuThMEl4PDWWMr502G3Bw==}
+  /next-docs-zeta@2.4.1(@types/react@18.2.28)(next@13.5.5)(react-dom@18.2.0)(react@18.2.0)(supports-color@8.1.1):
+    resolution: {integrity: sha512-BzYELyNWop35S6okp6wp9HlobOq6rZt0qWfdfQyvwDTSm18zEFyvqREBeiskBJefSVRy7nJ+fOCDPqsrwR8wEg==}
     peerDependencies:
       next: 13.x
       react: 18.x
