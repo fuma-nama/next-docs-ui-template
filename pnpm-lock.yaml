@@ -15,20 +15,17 @@ dependencies:
     specifier: 0.3.4
     version: 0.3.4(contentlayer@0.3.4)(esbuild@0.17.19)(next@13.5.6)(react-dom@18.2.0)(react@18.2.0)(supports-color@8.1.1)
   next-docs-ui:
-    specifier: 2.4.1
-    version: 2.4.1(@types/react-dom@18.2.14)(@types/react@18.2.30)(next@13.5.6)(react-dom@18.2.0)(react@18.2.0)(supports-color@8.1.1)
+    specifier: 3.0.0
+    version: 3.0.0(@types/react-dom@18.2.14)(@types/react@18.2.30)(next@13.5.6)(react-dom@18.2.0)(react@18.2.0)(supports-color@8.1.1)
   next-docs-zeta:
-    specifier: 2.4.1
-    version: 2.4.1(@types/react@18.2.30)(next@13.5.6)(react-dom@18.2.0)(react@18.2.0)(supports-color@8.1.1)
+    specifier: 3.0.0
+    version: 3.0.0(@types/react@18.2.30)(next@13.5.6)(react-dom@18.2.0)(react@18.2.0)(supports-color@8.1.1)
   react:
     specifier: 18.2.0
     version: 18.2.0
   react-dom:
     specifier: 18.2.0
     version: 18.2.0(react@18.2.0)
-  shiki:
-    specifier: ^0.14.5
-    version: 0.14.5
 
 devDependencies:
   '@types/react':
@@ -2003,10 +2000,6 @@ packages:
     resolution: {integrity: sha512-cputDpIbFgLUaGQn6Vqg3/YsJwxUwHLO13v3i5ouxT4lat0khip9AEWxtERujXV9wxIB1EyF97BSJFt6vpdI8g==}
     dev: false
 
-  /@types/unist@3.0.0:
-    resolution: {integrity: sha512-MFETx3tbTjE7Uk6vvnWINA/1iJ7LuMdO4fcq8UfF0pRbj01aGLduVvQcRyswuACJdpnHgg8E3rQLhaRdNEJS0w==}
-    dev: false
-
   /acorn-jsx@5.3.2(acorn@8.10.0):
     resolution: {integrity: sha512-rq9s+JNhf0IChjtDXxllJ7g41oZk5SlXtp0LHwyA5cejwn7vKmKp4pPri6YEePv2PU65sAsegbXtIinmDFDXgQ==}
     peerDependencies:
@@ -2833,8 +2826,8 @@ packages:
       yallist: 4.0.0
     dev: false
 
-  /lucide-react@0.287.0(react@18.2.0):
-    resolution: {integrity: sha512-auxP2bTGiMoELzX+6ItTeNzLmhGd/O+PHBsrXV2YwPXYCxarIFJhiMOSzFT9a1GWeYPSZtnWdLr79IVXr/5JqQ==}
+  /lucide-react@0.288.0(react@18.2.0):
+    resolution: {integrity: sha512-ikhb/9LOkq9orPoLV9lLC4UYyoXQycBhIgH7H59ahOkk0mkcAqkD52m84RXedE/qVqZHW8rEJquInT4xGmsNqw==}
     peerDependencies:
       react: ^16.5.1 || ^17.0.0 || ^18.0.0
     dependencies:
@@ -3468,8 +3461,8 @@ packages:
       - supports-color
     dev: false
 
-  /next-docs-ui@2.4.1(@types/react-dom@18.2.14)(@types/react@18.2.30)(next@13.5.6)(react-dom@18.2.0)(react@18.2.0)(supports-color@8.1.1):
-    resolution: {integrity: sha512-/GfEELF7XdCcqq1t99iser+Lcz+3I1D2CVjr/NqKxZNchWU04NamACa5LQnn6Tj9wL7dq6DzNdkvJkV+DYuJxQ==}
+  /next-docs-ui@3.0.0(@types/react-dom@18.2.14)(@types/react@18.2.30)(next@13.5.6)(react-dom@18.2.0)(react@18.2.0)(supports-color@8.1.1):
+    resolution: {integrity: sha512-UNg6dDQ4r1PaOglUZF/90XtNisXrRioOKuZRKM39Oo1KLZ/jQ+cb9Psal7wRKBldWh8in2a46WueY6Ajge9WzQ==}
     peerDependencies:
       next: 13.x
       react: 18.x
@@ -3486,9 +3479,9 @@ packages:
       class-variance-authority: 0.7.0
       clsx: 2.0.0
       cmdk: 0.2.0(@types/react@18.2.30)(react-dom@18.2.0)(react@18.2.0)
-      lucide-react: 0.287.0(react@18.2.0)
+      lucide-react: 0.288.0(react@18.2.0)
       next: 13.5.6(@opentelemetry/api@1.4.1)(react-dom@18.2.0)(react@18.2.0)
-      next-docs-zeta: 2.4.1(@types/react@18.2.30)(next@13.5.6)(react-dom@18.2.0)(react@18.2.0)(supports-color@8.1.1)
+      next-docs-zeta: 3.0.0(@types/react@18.2.30)(next@13.5.6)(react-dom@18.2.0)(react@18.2.0)(supports-color@8.1.1)
       next-themes: 0.2.1(next@13.5.6)(react-dom@18.2.0)(react@18.2.0)
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
@@ -3500,8 +3493,8 @@ packages:
       - supports-color
     dev: false
 
-  /next-docs-zeta@2.4.1(@types/react@18.2.30)(next@13.5.6)(react-dom@18.2.0)(react@18.2.0)(supports-color@8.1.1):
-    resolution: {integrity: sha512-BzYELyNWop35S6okp6wp9HlobOq6rZt0qWfdfQyvwDTSm18zEFyvqREBeiskBJefSVRy7nJ+fOCDPqsrwR8wEg==}
+  /next-docs-zeta@3.0.0(@types/react@18.2.30)(next@13.5.6)(react-dom@18.2.0)(react@18.2.0)(supports-color@8.1.1):
+    resolution: {integrity: sha512-p1sDzCHldjVztWlZNuv+MHXUkK6FfmOIHWHNwx+YnKiAzNHxVApW8baTV1MFyWtOJcrmo2GzHPY0Q5YCpkQoFw==}
     peerDependencies:
       next: 13.x
       react: 18.x
@@ -3523,7 +3516,7 @@ packages:
       scroll-into-view-if-needed: 3.1.0
       shiki: 0.14.5
       swr: 2.2.4(react@18.2.0)
-      unist-util-visit: 5.0.0
+      unist-util-visit: 4.1.2
     transitivePeerDependencies:
       - '@types/react'
       - supports-color
@@ -4197,12 +4190,6 @@ packages:
       '@types/unist': 2.0.7
     dev: false
 
-  /unist-util-is@6.0.0:
-    resolution: {integrity: sha512-2qCTHimwdxLfz+YzdGfkqNlH0tLi9xjTnHddPmJwtIG9MGsdbutfTc4P+haPD7l7Cjxf/WZj+we5qfVPvvxfYw==}
-    dependencies:
-      '@types/unist': 3.0.0
-    dev: false
-
   /unist-util-position-from-estree@1.1.2:
     resolution: {integrity: sha512-poZa0eXpS+/XpoQwGwl79UUdea4ol2ZuCYguVaJS4qzIOMDzbqz8a3erUCOmubSZkaOuGamb3tX790iwOIROww==}
     dependencies:
@@ -4235,27 +4222,12 @@ packages:
       unist-util-is: 5.2.1
     dev: false
 
-  /unist-util-visit-parents@6.0.1:
-    resolution: {integrity: sha512-L/PqWzfTP9lzzEa6CKs0k2nARxTdZduw3zyh8d2NVBnsyvHjSX4TWse388YrrQKbvI8w20fGjGlhgT96WwKykw==}
-    dependencies:
-      '@types/unist': 3.0.0
-      unist-util-is: 6.0.0
-    dev: false
-
   /unist-util-visit@4.1.2:
     resolution: {integrity: sha512-MSd8OUGISqHdVvfY9TPhyK2VdUrPgxkUtWSuMHF6XAAFuL4LokseigBnZtPnJMu+FbynTkFNnFlyjxpVKujMRg==}
     dependencies:
       '@types/unist': 2.0.7
       unist-util-is: 5.2.1
       unist-util-visit-parents: 5.1.3
-    dev: false
-
-  /unist-util-visit@5.0.0:
-    resolution: {integrity: sha512-MR04uvD+07cwl/yhVuVWAtw+3GOR/knlL55Nd/wAdblk27GCVt3lqpTivy/tkJcZoNPzTwS1Y+KMojlLDhoTzg==}
-    dependencies:
-      '@types/unist': 3.0.0
-      unist-util-is: 6.0.0
-      unist-util-visit-parents: 6.0.1
     dev: false
 
   /use-callback-ref@1.3.0(@types/react@18.2.30)(react@18.2.0):
