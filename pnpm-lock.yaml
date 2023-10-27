@@ -15,8 +15,8 @@ dependencies:
     specifier: 0.3.4
     version: 0.3.4(contentlayer@0.3.4)(esbuild@0.17.19)(next@13.5.6)(react-dom@18.2.0)(react@18.2.0)(supports-color@8.1.1)
   next-docs-ui:
-    specifier: 3.0.0
-    version: 3.0.0(@types/react-dom@18.2.14)(@types/react@18.2.31)(next@13.5.6)(react-dom@18.2.0)(react@18.2.0)(supports-color@8.1.1)
+    specifier: 4.0.1
+    version: 4.0.1(@types/react-dom@18.2.14)(@types/react@18.2.31)(next@13.5.6)(react-dom@18.2.0)(react@18.2.0)(supports-color@8.1.1)
   next-docs-zeta:
     specifier: 3.0.0
     version: 3.0.0(@types/react@18.2.31)(next@13.5.6)(react-dom@18.2.0)(react@18.2.0)(supports-color@8.1.1)
@@ -1209,33 +1209,6 @@ packages:
       react-dom: 18.2.0(react@18.2.0)
     dev: false
 
-  /@radix-ui/react-dropdown-menu@2.0.5(@types/react-dom@18.2.14)(@types/react@18.2.31)(react-dom@18.2.0)(react@18.2.0):
-    resolution: {integrity: sha512-xdOrZzOTocqqkCkYo8yRPCib5OkTkqN7lqNCdxwPOdE466DOaNl4N8PkUIlsXthQvW5Wwkd+aEmWpfWlBoDPEw==}
-    peerDependencies:
-      '@types/react': '*'
-      '@types/react-dom': '*'
-      react: ^16.8 || ^17.0 || ^18.0
-      react-dom: ^16.8 || ^17.0 || ^18.0
-    peerDependenciesMeta:
-      '@types/react':
-        optional: true
-      '@types/react-dom':
-        optional: true
-    dependencies:
-      '@babel/runtime': 7.22.11
-      '@radix-ui/primitive': 1.0.1
-      '@radix-ui/react-compose-refs': 1.0.1(@types/react@18.2.31)(react@18.2.0)
-      '@radix-ui/react-context': 1.0.1(@types/react@18.2.31)(react@18.2.0)
-      '@radix-ui/react-id': 1.0.1(@types/react@18.2.31)(react@18.2.0)
-      '@radix-ui/react-menu': 2.0.5(@types/react-dom@18.2.14)(@types/react@18.2.31)(react-dom@18.2.0)(react@18.2.0)
-      '@radix-ui/react-primitive': 1.0.3(@types/react-dom@18.2.14)(@types/react@18.2.31)(react-dom@18.2.0)(react@18.2.0)
-      '@radix-ui/react-use-controllable-state': 1.0.1(@types/react@18.2.31)(react@18.2.0)
-      '@types/react': 18.2.31
-      '@types/react-dom': 18.2.14
-      react: 18.2.0
-      react-dom: 18.2.0(react@18.2.0)
-    dev: false
-
   /@radix-ui/react-focus-guards@1.0.0(react@18.2.0):
     resolution: {integrity: sha512-UagjDk4ijOAnGu4WMUPj9ahi7/zJJqNZ9ZAiGPp7waUWJO0O1aWXi/udPphI0IUjvrhBsZJGSN66dR2dsueLWQ==}
     peerDependencies:
@@ -1342,44 +1315,6 @@ packages:
       '@radix-ui/react-use-layout-effect': 1.0.1(@types/react@18.2.31)(react@18.2.0)
       '@types/react': 18.2.31
       react: 18.2.0
-    dev: false
-
-  /@radix-ui/react-menu@2.0.5(@types/react-dom@18.2.14)(@types/react@18.2.31)(react-dom@18.2.0)(react@18.2.0):
-    resolution: {integrity: sha512-Gw4f9pwdH+w5w+49k0gLjN0PfRDHvxmAgG16AbyJZ7zhwZ6PBHKtWohvnSwfusfnK3L68dpBREHpVkj8wEM7ZA==}
-    peerDependencies:
-      '@types/react': '*'
-      '@types/react-dom': '*'
-      react: ^16.8 || ^17.0 || ^18.0
-      react-dom: ^16.8 || ^17.0 || ^18.0
-    peerDependenciesMeta:
-      '@types/react':
-        optional: true
-      '@types/react-dom':
-        optional: true
-    dependencies:
-      '@babel/runtime': 7.22.11
-      '@radix-ui/primitive': 1.0.1
-      '@radix-ui/react-collection': 1.0.3(@types/react-dom@18.2.14)(@types/react@18.2.31)(react-dom@18.2.0)(react@18.2.0)
-      '@radix-ui/react-compose-refs': 1.0.1(@types/react@18.2.31)(react@18.2.0)
-      '@radix-ui/react-context': 1.0.1(@types/react@18.2.31)(react@18.2.0)
-      '@radix-ui/react-direction': 1.0.1(@types/react@18.2.31)(react@18.2.0)
-      '@radix-ui/react-dismissable-layer': 1.0.4(@types/react-dom@18.2.14)(@types/react@18.2.31)(react-dom@18.2.0)(react@18.2.0)
-      '@radix-ui/react-focus-guards': 1.0.1(@types/react@18.2.31)(react@18.2.0)
-      '@radix-ui/react-focus-scope': 1.0.3(@types/react-dom@18.2.14)(@types/react@18.2.31)(react-dom@18.2.0)(react@18.2.0)
-      '@radix-ui/react-id': 1.0.1(@types/react@18.2.31)(react@18.2.0)
-      '@radix-ui/react-popper': 1.1.2(@types/react-dom@18.2.14)(@types/react@18.2.31)(react-dom@18.2.0)(react@18.2.0)
-      '@radix-ui/react-portal': 1.0.3(@types/react-dom@18.2.14)(@types/react@18.2.31)(react-dom@18.2.0)(react@18.2.0)
-      '@radix-ui/react-presence': 1.0.1(@types/react-dom@18.2.14)(@types/react@18.2.31)(react-dom@18.2.0)(react@18.2.0)
-      '@radix-ui/react-primitive': 1.0.3(@types/react-dom@18.2.14)(@types/react@18.2.31)(react-dom@18.2.0)(react@18.2.0)
-      '@radix-ui/react-roving-focus': 1.0.4(@types/react-dom@18.2.14)(@types/react@18.2.31)(react-dom@18.2.0)(react@18.2.0)
-      '@radix-ui/react-slot': 1.0.2(@types/react@18.2.31)(react@18.2.0)
-      '@radix-ui/react-use-callback-ref': 1.0.1(@types/react@18.2.31)(react@18.2.0)
-      '@types/react': 18.2.31
-      '@types/react-dom': 18.2.14
-      aria-hidden: 1.2.3
-      react: 18.2.0
-      react-dom: 18.2.0(react@18.2.0)
-      react-remove-scroll: 2.5.5(@types/react@18.2.31)(react@18.2.0)
     dev: false
 
   /@radix-ui/react-popover@1.0.6(@types/react-dom@18.2.14)(@types/react@18.2.31)(react-dom@18.2.0)(react@18.2.0):
@@ -2826,8 +2761,8 @@ packages:
       yallist: 4.0.0
     dev: false
 
-  /lucide-react@0.288.0(react@18.2.0):
-    resolution: {integrity: sha512-ikhb/9LOkq9orPoLV9lLC4UYyoXQycBhIgH7H59ahOkk0mkcAqkD52m84RXedE/qVqZHW8rEJquInT4xGmsNqw==}
+  /lucide-react@0.290.0(react@18.2.0):
+    resolution: {integrity: sha512-CBDPRLOPjdo+bVlxhaa7FVWaB8OrZZQ34mwm0Fsz9ut6JltN/Td55640ur8bRWSJuz6+nX2klKrpBpV7ktwD3Q==}
     peerDependencies:
       react: ^16.5.1 || ^17.0.0 || ^18.0.0
     dependencies:
@@ -3461,17 +3396,16 @@ packages:
       - supports-color
     dev: false
 
-  /next-docs-ui@3.0.0(@types/react-dom@18.2.14)(@types/react@18.2.31)(next@13.5.6)(react-dom@18.2.0)(react@18.2.0)(supports-color@8.1.1):
-    resolution: {integrity: sha512-UNg6dDQ4r1PaOglUZF/90XtNisXrRioOKuZRKM39Oo1KLZ/jQ+cb9Psal7wRKBldWh8in2a46WueY6Ajge9WzQ==}
+  /next-docs-ui@4.0.1(@types/react-dom@18.2.14)(@types/react@18.2.31)(next@13.5.6)(react-dom@18.2.0)(react@18.2.0)(supports-color@8.1.1):
+    resolution: {integrity: sha512-d2p8XZZ7VYpztN7wyx3ndjzJVuiMkWmFz+2zmzoboWOLWfZHxZatSfQ8QMEEfUmkKe6ZAuoMPfIUJrnHkEAOrA==}
     peerDependencies:
-      next: 13.x
-      react: 18.x
-      react-dom: 18.x
+      next: '>= 13'
+      react: '>= 18'
+      react-dom: '>= 18'
     dependencies:
       '@radix-ui/react-accordion': 1.1.2(@types/react-dom@18.2.14)(@types/react@18.2.31)(react-dom@18.2.0)(react@18.2.0)
       '@radix-ui/react-collapsible': 1.0.3(@types/react-dom@18.2.14)(@types/react@18.2.31)(react-dom@18.2.0)(react@18.2.0)
       '@radix-ui/react-dialog': 1.0.4(@types/react-dom@18.2.14)(@types/react@18.2.31)(react-dom@18.2.0)(react@18.2.0)
-      '@radix-ui/react-dropdown-menu': 2.0.5(@types/react-dom@18.2.14)(@types/react@18.2.31)(react-dom@18.2.0)(react@18.2.0)
       '@radix-ui/react-popover': 1.0.6(@types/react-dom@18.2.14)(@types/react@18.2.31)(react-dom@18.2.0)(react@18.2.0)
       '@radix-ui/react-scroll-area': 1.0.4(@types/react-dom@18.2.14)(@types/react@18.2.31)(react-dom@18.2.0)(react@18.2.0)
       '@radix-ui/react-select': 2.0.0(@types/react-dom@18.2.14)(@types/react@18.2.31)(react-dom@18.2.0)(react@18.2.0)
@@ -3479,9 +3413,9 @@ packages:
       class-variance-authority: 0.7.0
       clsx: 2.0.0
       cmdk: 0.2.0(@types/react@18.2.31)(react-dom@18.2.0)(react@18.2.0)
-      lucide-react: 0.288.0(react@18.2.0)
+      lucide-react: 0.290.0(react@18.2.0)
       next: 13.5.6(@opentelemetry/api@1.4.1)(react-dom@18.2.0)(react@18.2.0)
-      next-docs-zeta: 3.0.0(@types/react@18.2.31)(next@13.5.6)(react-dom@18.2.0)(react@18.2.0)(supports-color@8.1.1)
+      next-docs-zeta: 4.0.1(@types/react@18.2.31)(next@13.5.6)(react-dom@18.2.0)(react@18.2.0)(supports-color@8.1.1)
       next-themes: 0.2.1(next@13.5.6)(react-dom@18.2.0)(react@18.2.0)
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
@@ -3499,6 +3433,35 @@ packages:
       next: 13.x
       react: 18.x
       react-dom: 18.x
+    dependencies:
+      '@formatjs/intl-localematcher': 0.4.2
+      flexsearch: 0.7.21
+      github-slugger: 2.0.0
+      negotiator: 0.6.3
+      next: 13.5.6(@opentelemetry/api@1.4.1)(react-dom@18.2.0)(react@18.2.0)
+      react: 18.2.0
+      react-dom: 18.2.0(react@18.2.0)
+      react-remove-scroll: 2.5.6(@types/react@18.2.31)(react@18.2.0)
+      rehype-img-size: 1.0.1
+      rehype-pretty-code: 0.10.1(shiki@0.14.5)
+      remark: 14.0.3(supports-color@8.1.1)
+      remark-gfm: 3.0.1(supports-color@8.1.1)
+      remark-mdx: 2.3.0(supports-color@8.1.1)
+      scroll-into-view-if-needed: 3.1.0
+      shiki: 0.14.5
+      swr: 2.2.4(react@18.2.0)
+      unist-util-visit: 4.1.2
+    transitivePeerDependencies:
+      - '@types/react'
+      - supports-color
+    dev: false
+
+  /next-docs-zeta@4.0.1(@types/react@18.2.31)(next@13.5.6)(react-dom@18.2.0)(react@18.2.0)(supports-color@8.1.1):
+    resolution: {integrity: sha512-MCqtvU+oayZKp2nuccpTDuzzOLxQ4xBwgYd//WvMpDTFQaf/O1ntJcACk5RayJc4jRHbBR3TSIpr/wblxA2rqg==}
+    peerDependencies:
+      next: '>= 13'
+      react: '>= 18'
+      react-dom: '>= 18'
     dependencies:
       '@formatjs/intl-localematcher': 0.4.2
       flexsearch: 0.7.21
