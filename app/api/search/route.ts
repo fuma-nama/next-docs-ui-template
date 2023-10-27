@@ -1,13 +1,11 @@
-import { getPageUrl } from "@/app/source";
-import { allDocs } from "contentlayer/generated";
+import { getPageUrl, pages } from "@/app/source";
 import { createSearchAPI } from "next-docs-zeta/search/server";
 
 export const { GET } = createSearchAPI("advanced", {
-  indexes: allDocs.map((page) => ({
-    id: page._id,
-    title: page.title,
-    content: page.body.raw,
-    url: getPageUrl(page.slug),
-    structuredData: page.structuredData,
+  indexes: pages.map((page) => ({
+    id: page.file.id,
+    title: page.matter.title,
+    url: getPageUrl(page.slugs),
+    structuredData: page.data.structuredData,
   })),
 });

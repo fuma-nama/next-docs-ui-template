@@ -1,7 +1,4 @@
-import { allDocs, allMeta } from 'contentlayer/generated'
-import { createContentlayer } from 'next-docs-zeta/contentlayer'
+import { fromMap } from "next-docs-mdx/map";
+import { map } from "@/_map";
 
-export const { tree, getPage, getPageUrl } = createContentlayer(
-  allMeta,
-  allDocs
-)
+export const { tree, getPage, pages, getPageUrl } = fromMap(map);
