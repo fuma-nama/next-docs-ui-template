@@ -19,13 +19,11 @@
     },
     "build": {
       "name": "build",
-      "command": "pnpm run build",
-      "runAtStart": false
+      "command": "pnpm run build"
     },
     "start": {
       "name": "start",
-      "command": "pnpm run start",
-      "runAtStart": false
+      "command": "pnpm run start"
     }
   }
 }
