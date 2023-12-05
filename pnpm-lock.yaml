@@ -18,8 +18,8 @@ dependencies:
     specifier: ^14.0.0
     version: 14.0.0(react-dom@18.2.0)(react@18.2.0)
   next-docs-mdx:
-    specifier: ^4.0.1
-    version: 4.0.1(@next/mdx@14.0.0)(next-docs-zeta@5.0.0)
+    specifier: ^5.0.0
+    version: 5.0.0(@next/mdx@14.0.0)(next-docs-zeta@5.0.0)
   next-docs-ui:
     specifier: ^4.0.1
     version: 4.0.1(@types/react-dom@18.2.17)(@types/react@18.2.42)(next@14.0.0)(react-dom@18.2.0)(react@18.2.0)
@@ -1303,7 +1303,7 @@ packages:
   /@types/hast@3.0.3:
     resolution: {integrity: sha512-2fYGlaDy/qyLlhidX42wAH0KBi2TCjKMH8CHmBXgRlJ3Y+OXTiqsPQ6IWarZKwF1JoUcAJdPogv1d4b0COTpmQ==}
     dependencies:
-      '@types/unist': 2.0.7
+      '@types/unist': 3.0.2
     dev: false
 
   /@types/json-schema@7.0.14:
@@ -2778,11 +2778,11 @@ packages:
     resolution: {integrity: sha512-Yd3UES5mWCSqR+qNT93S3UoYUkqAZ9lLg8a7g9rimsWmYGK8cVToA4/sF3RrshdyV3sAGMXVUmpMYOw+dLpOuw==}
     dev: false
 
-  /next-docs-mdx@4.0.1(@next/mdx@14.0.0)(next-docs-zeta@5.0.0):
-    resolution: {integrity: sha512-/Morlv0qEo9b2FVmMCfr+pD7+6ChxDd3c20C7EHr09JE/DMM6Wn+GiQo9uzxHNGE/A1rj0F/xoWpz3aUgq/3Ow==}
+  /next-docs-mdx@5.0.0(@next/mdx@14.0.0)(next-docs-zeta@5.0.0):
+    resolution: {integrity: sha512-hA2liRxRHJ3CB7zJF8y9iOp1D+Tlfmsz8hKT3KuaHZA72180mV8yVhCtosrsKOAZcqCMqeXtn1ZJrGZq8TBZDA==}
     peerDependencies:
       '@next/mdx': '>= 13'
-      next-docs-zeta: 4.0.1
+      next-docs-zeta: 5.0.0
     dependencies:
       '@next/mdx': 14.0.0(@mdx-js/loader@2.3.0)(@mdx-js/react@2.3.0)
       estree-util-value-to-estree: 3.0.1
