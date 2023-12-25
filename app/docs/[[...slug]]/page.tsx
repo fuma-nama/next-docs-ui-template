@@ -1,9 +1,7 @@
-import { getPage, getPageUrl, pages, tree } from "@/app/source";
-import type { Metadata } from "next";
-import { MDXContent } from "next-docs-ui/mdx";
-import { DocsPage } from "next-docs-ui/page";
-import { findNeighbour } from "next-docs-zeta/server";
-import { notFound } from "next/navigation";
+import { getPage, pages } from '@/app/source';
+import type { Metadata } from 'next';
+import { DocsPage, DocsBody } from 'next-docs-ui/page';
+import { notFound } from 'next/navigation';
 
 export default async function Page({
   params,
@@ -16,20 +14,19 @@ export default async function Page({
     notFound();
   }
 
-  const neighbour = findNeighbour(tree, getPageUrl(params.slug));
-  const Content = page.data.default;
+  const MDX = page.data.default;
 
   return (
-    <DocsPage toc={page.data.toc} footer={neighbour}>
-      <MDXContent>
+    <DocsPage url={page.url} toc={page.data.toc}>
+      <DocsBody>
         <h1>{page.matter.title}</h1>
-        <Content />
-      </MDXContent>
+        <MDX />
+      </DocsBody>
     </DocsPage>
   );
 }
 
-export async function generateStaticParams(): Promise<{ slug: string[] }[]> {
+export async function generateStaticParams() {
   return pages.map((page) => ({
     slug: page.slugs,
   }));
