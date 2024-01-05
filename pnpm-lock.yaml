@@ -1,5 +1,9 @@
 lockfileVersion: '6.0'
 
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
 dependencies:
   next:
     specifier: 14.0.4
@@ -8,8 +12,8 @@ dependencies:
     specifier: 6.1.0
     version: 6.1.0(@types/react@18.2.0)(next@14.0.4)(react-dom@18.2.0)(react@18.2.0)
   next-docs-ui:
-    specifier: 6.1.0
-    version: 6.1.0(@types/react-dom@18.2.1)(@types/react@18.2.0)(next@14.0.4)(react-dom@18.2.0)(react@18.2.0)(tailwindcss@3.4.0)
+    specifier: 7.0.0
+    version: 7.0.0(@types/react-dom@18.2.1)(@types/react@18.2.0)(next@14.0.4)(react-dom@18.2.0)(react@18.2.0)(tailwindcss@3.4.0)
   next-docs-zeta:
     specifier: 6.1.0
     version: 6.1.0(@types/react@18.2.0)(next@14.0.4)(react-dom@18.2.0)(react@18.2.0)
@@ -2042,8 +2046,8 @@ packages:
     engines: {node: 14 || >=16.14}
     dev: false
 
-  /lucide-react@0.297.0(react@18.2.0):
-    resolution: {integrity: sha512-PA3ddfQ1KXZbY8j4eBfd4gp5mDusacqVh/M1xNjHviQR+O0QVCmy2NazperLGm5zlU51p9amUB/apFqfsYa0zA==}
+  /lucide-react@0.298.0(react@18.2.0):
+    resolution: {integrity: sha512-tWoxZ663Zf/n8VxXTHnTJsU/w1ysWT1LORnIL1pzqElFdSqBhWbZeJ3sLdCZ5FpzpbkpkYEtluhuTyG2BTDYNQ==}
     peerDependencies:
       react: ^16.5.1 || ^17.0.0 || ^18.0.0
     dependencies:
@@ -2654,8 +2658,8 @@ packages:
       - supports-color
     dev: false
 
-  /next-docs-ui@6.1.0(@types/react-dom@18.2.1)(@types/react@18.2.0)(next@14.0.4)(react-dom@18.2.0)(react@18.2.0)(tailwindcss@3.4.0):
-    resolution: {integrity: sha512-g2JFd0wzNngX7ijrwK5tJkGiBHviF2sf71Ey08yf7rWI6s5Sb25Pk4KClGYo1ghA8ck/v/UL1KUcruzwvFCfcQ==}
+  /next-docs-ui@7.0.0(@types/react-dom@18.2.1)(@types/react@18.2.0)(next@14.0.4)(react-dom@18.2.0)(react@18.2.0)(tailwindcss@3.4.0):
+    resolution: {integrity: sha512-tzdKxOXEvS0uSJGOXx7JEbE5NAYR+ll/Pnz9hy8LSlbaDFwDVo564t+H7r9oGjD+byefo0mHl9mxWGWJy/XD4g==}
     peerDependencies:
       next: '>= 13'
       react: '>= 18'
@@ -2672,9 +2676,9 @@ packages:
       class-variance-authority: 0.7.0
       clsx: 2.0.0
       cmdk: 0.2.0(@types/react@18.2.0)(react-dom@18.2.0)(react@18.2.0)
-      lucide-react: 0.297.0(react@18.2.0)
+      lucide-react: 0.298.0(react@18.2.0)
       next: 14.0.4(react-dom@18.2.0)(react@18.2.0)
-      next-docs-zeta: 6.1.0(@types/react@18.2.0)(next@14.0.4)(react-dom@18.2.0)(react@18.2.0)
+      next-docs-zeta: 7.0.0(@types/react@18.2.0)(next@14.0.4)(react-dom@18.2.0)(react@18.2.0)
       next-themes: 0.2.1(next@14.0.4)(react-dom@18.2.0)(react@18.2.0)
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
@@ -2712,6 +2716,35 @@ packages:
       shikiji: 0.9.11
       swr: 2.2.4(react@18.2.0)
       unist-util-visit: 4.1.2
+    transitivePeerDependencies:
+      - '@types/react'
+      - supports-color
+    dev: false
+
+  /next-docs-zeta@7.0.0(@types/react@18.2.0)(next@14.0.4)(react-dom@18.2.0)(react@18.2.0):
+    resolution: {integrity: sha512-pGQvwdz3sqMyAkunrmmnDOrqQL6aRTAUvP1yD48fhVwmHYbs+FawQM67qaOEPDnCC8XuuD0Q0NaE79osb/e7Zg==}
+    peerDependencies:
+      next: '>= 13.4'
+      react: '>= 18'
+      react-dom: '>= 18'
+    dependencies:
+      '@formatjs/intl-localematcher': 0.5.2
+      flexsearch: 0.7.21
+      github-slugger: 2.0.0
+      negotiator: 0.6.3
+      next: 14.0.4(react-dom@18.2.0)(react@18.2.0)
+      react: 18.2.0
+      react-dom: 18.2.0(react@18.2.0)
+      react-remove-scroll: 2.5.6(@types/react@18.2.0)(react@18.2.0)
+      rehype-img-size: 1.0.1
+      rehype-pretty-code: 0.12.3(shikiji@0.9.11)
+      remark: 15.0.1
+      remark-gfm: 4.0.0
+      remark-mdx: 3.0.0
+      scroll-into-view-if-needed: 3.1.0
+      shikiji: 0.9.11
+      swr: 2.2.4(react@18.2.0)
+      unist-util-visit: 5.0.0
     transitivePeerDependencies:
       - '@types/react'
       - supports-color
@@ -3643,7 +3676,3 @@ packages:
   /zwitch@2.0.4:
     resolution: {integrity: sha512-bXE4cR/kVZhKZX/RjPEflHaKVhUVl85noU3v6b8apfQEc1x4A+zBxjZ4lN8LqGd6WZ3dl98pY4o717VFmoPp+A==}
     dev: false
-
-settings:
-  autoInstallPeers: true
-  excludeLinksFromLockfile: false
