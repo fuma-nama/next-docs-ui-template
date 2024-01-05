@@ -1,12 +1,16 @@
 lockfileVersion: '6.0'
 
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
 dependencies:
   next:
     specifier: 14.0.4
     version: 14.0.4(react-dom@18.2.0)(react@18.2.0)
   next-docs-mdx:
-    specifier: 6.1.0
-    version: 6.1.0(@types/react@18.2.0)(next@14.0.4)(react-dom@18.2.0)(react@18.2.0)
+    specifier: 7.0.0
+    version: 7.0.0(@types/react@18.2.0)(next@14.0.4)(react-dom@18.2.0)(react@18.2.0)
   next-docs-ui:
     specifier: 6.1.0
     version: 6.1.0(@types/react-dom@18.2.1)(@types/react@18.2.0)(next@14.0.4)(react-dom@18.2.0)(react@18.2.0)(tailwindcss@3.4.0)
@@ -2635,17 +2639,18 @@ packages:
     engines: {node: '>= 0.6'}
     dev: false
 
-  /next-docs-mdx@6.1.0(@types/react@18.2.0)(next@14.0.4)(react-dom@18.2.0)(react@18.2.0):
-    resolution: {integrity: sha512-uwnN08fCKUOzUTRahCcET51pU1JcxOEYsfvdA76ACtdyH0dmRSC/pPbsAZFRnISEA+aMg1CirGCmemo96Y78IA==}
+  /next-docs-mdx@7.0.0(@types/react@18.2.0)(next@14.0.4)(react-dom@18.2.0)(react@18.2.0):
+    resolution: {integrity: sha512-KKxe3CF7VwleTkSCrTaaBEl5P31/A5qwg5pLBJR8XBeW7qdQhAuNl55GmtEAYklltdBoi6qjp1UJzKkQDdLY/w==}
     peerDependencies:
       next: '>= 13.4'
     dependencies:
       '@mdx-js/mdx': 3.0.0
+      cross-spawn: 7.0.3
       estree-util-value-to-estree: 3.0.1
       fast-glob: 3.3.1
       gray-matter: 4.0.3
       next: 14.0.4(react-dom@18.2.0)(react@18.2.0)
-      next-docs-zeta: 6.1.0(@types/react@18.2.0)(next@14.0.4)(react-dom@18.2.0)(react@18.2.0)
+      next-docs-zeta: 7.0.0(@types/react@18.2.0)(next@14.0.4)(react-dom@18.2.0)(react@18.2.0)
       zod: 3.22.4
     transitivePeerDependencies:
       - '@types/react'
@@ -2712,6 +2717,35 @@ packages:
       shikiji: 0.9.11
       swr: 2.2.4(react@18.2.0)
       unist-util-visit: 4.1.2
+    transitivePeerDependencies:
+      - '@types/react'
+      - supports-color
+    dev: false
+
+  /next-docs-zeta@7.0.0(@types/react@18.2.0)(next@14.0.4)(react-dom@18.2.0)(react@18.2.0):
+    resolution: {integrity: sha512-pGQvwdz3sqMyAkunrmmnDOrqQL6aRTAUvP1yD48fhVwmHYbs+FawQM67qaOEPDnCC8XuuD0Q0NaE79osb/e7Zg==}
+    peerDependencies:
+      next: '>= 13.4'
+      react: '>= 18'
+      react-dom: '>= 18'
+    dependencies:
+      '@formatjs/intl-localematcher': 0.5.2
+      flexsearch: 0.7.21
+      github-slugger: 2.0.0
+      negotiator: 0.6.3
+      next: 14.0.4(react-dom@18.2.0)(react@18.2.0)
+      react: 18.2.0
+      react-dom: 18.2.0(react@18.2.0)
+      react-remove-scroll: 2.5.6(@types/react@18.2.0)(react@18.2.0)
+      rehype-img-size: 1.0.1
+      rehype-pretty-code: 0.12.3(shikiji@0.9.11)
+      remark: 15.0.1
+      remark-gfm: 4.0.0
+      remark-mdx: 3.0.0
+      scroll-into-view-if-needed: 3.1.0
+      shikiji: 0.9.11
+      swr: 2.2.4(react@18.2.0)
+      unist-util-visit: 5.0.0
     transitivePeerDependencies:
       - '@types/react'
       - supports-color
@@ -3643,7 +3677,3 @@ packages:
   /zwitch@2.0.4:
     resolution: {integrity: sha512-bXE4cR/kVZhKZX/RjPEflHaKVhUVl85noU3v6b8apfQEc1x4A+zBxjZ4lN8LqGd6WZ3dl98pY4o717VFmoPp+A==}
     dev: false
-
-settings:
-  autoInstallPeers: true
-  excludeLinksFromLockfile: false
