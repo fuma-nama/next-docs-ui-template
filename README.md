@@ -1,3 +1,7 @@
+> Deprecated
+>
+> Next docs has renamed to fumadocs, use fumadocs-ui-template instead.
+
 # next-docs-ui-template
 
 This is a Next.js application generated with
